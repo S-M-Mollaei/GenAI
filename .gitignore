@@ -1,0 +1,33 @@
+# Ignore all Jupyter notebooks
+*.ipynb
+!hands_on_llm_fine_tuned.ipynb
+
+# Ignore typical cache and large binary junk
+__pycache__/
+.ipynb_checkpoints/
+*.pt
+*.pth
+*.zip
+*.log
+.DS_Store
+
+# Keep data files (CSV, TXT, PDF)
+!*.csv
+!*.txt
+!*.pdf
+!*.json
+
+# Ignore VSCode settings
+.vscode/        
+
+# Ignore Python virtual environments
+venv/
+env/    
+
+# Ignore password and secret key files
+secrets.py  
+secrets.json
+
+# Ignore folders
+sms_spam_collection/
+gpt2/
